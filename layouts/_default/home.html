@@ -1,0 +1,32 @@
+{{ define "style"}}
+    {{ $headerStyle := resources.Get "css/header_style.css" | toCSS | minify }}
+    {{ $profileStyle := resources.Get "css/profile_style.css" | toCSS | minify }}
+    {{ $listProjectStyle := resources.Get "css/list_project_style.css" | toCSS | minify }}
+    {{ $styles := slice $headerStyle $profileStyle $listProjectStyle  | resources.Concat "css/combined_home.css" }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{ end }}
+
+{{ define "page" }}
+{{ partial "header.html" . }}
+<div class="profile-container">
+    <div class="profile-intro">
+        <h2>Personal Introduction</h2>
+        <p>{{ .Content }}</p>
+    </div>
+    <div class="profile-image">
+        <img src="/images/profile_photo1.jpg" alt="profile-image">
+    </div>
+</div>
+<h2 class="home-heading">Projects</h2>
+<div class="post-container">
+    {{ range where .Site.RegularPages "Type" "projects" }}
+        <div class="post-item" data-description="{{.Params.description}}">
+        <a href="{{ .RelPermalink }}" class="post-link">
+            <img src="{{ .RelPermalink }}{{ .Params.showImage }}" alt="Default Image" />
+            <h2>{{ .Title }}</h2>
+        </a>
+        </div>
+    {{ end }}
+</div>
+{{ end }}
+

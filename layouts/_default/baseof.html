@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} | {{ .CurrentSection.Title }}{{ end }}</title>
+  <!-- set up the style sheet -->
+  {{ block "style" . }}{{ end }}
+</head>
+
+<body>
+  <!-- set up content -->
+  {{ block "page" . }}{{ end }}
+</body>
+</html>

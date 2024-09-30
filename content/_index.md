@@ -1,0 +1,4 @@
+---
+title: Home Page
+---
+Hi there! I'm a senior student majoring in Mechanical Engineering at the School of Mechanical and Power Engineering, Shanghai Jiao Tong University, and a member of the Qian Xuesen Class. I'm looking forward to continuing my graduate studies right here at SJTU. Currently, I'm working in the lab under the guidance of Professor Gen Liang. My academic journey has been marked by a passion for innovation and a drive to explore the intricate world of mechanical engineering. I'm keen on research and always open to engaging in discussions and collaborations that could push the boundaries of our field. Feel free to reach out if you're interested in collaborating or just exchanging ideas!

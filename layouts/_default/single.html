@@ -1,0 +1,11 @@
+{{ define "style"}}
+    {{ $headerStyle := resources.Get "css/header_style.css" | toCSS | minify }}
+    {{ $projectStyle := resources.Get "css/project_style.css" | toCSS | minify }}
+    {{ $styles := slice $headerStyle $projectStyle | resources.Concat "css/combined_project.css" }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{ end }}
+
+{{ define "page" }}
+    {{ partial "header.html" . }}
+    {{ partial "single_project.html" . }}
+{{ end }}

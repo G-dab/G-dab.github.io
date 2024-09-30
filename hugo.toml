@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site?'
+
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://yoursite.example.com/"
+canonifyurls = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# 支持Markdown内嵌html
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "G.dab's Awesome Hugo Site"
+  author = "Chenhao Wu"

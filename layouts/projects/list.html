@@ -1,0 +1,20 @@
+{{ define "style"}}
+  {{ $headerStyle := resources.Get "css/header_style.css" | toCSS | minify }}
+  {{ $listProjectStyle := resources.Get "css/list_project_style.css" | toCSS | minify }}
+  {{ $style := slice $headerStyle $listProjectStyle | resources.Concat "css/combined_list_project.css" }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}
+
+{{ define "page" }}
+  {{ partial "header.html" . }}
+  <div class="post-container">
+    {{ range .Pages }}
+      <div class="post-item" data-description="{{.Params.description}}">
+        <a href="{{ .RelPermalink }}" class="post-link">
+          <img src="{{ .RelPermalink }}{{ .Params.showImage }}" alt="Default Image" />
+          <h2>{{ .Title }}</h2>
+        </a>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

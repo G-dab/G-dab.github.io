@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('/fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+.post-container {
+    padding: 1% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* 黑框之间的间隔 */
+    justify-content: center;
+  }
+  
+  .post-item {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2.5px solid rgb(62, 60, 60);
+    background-color: white;
+    padding: 5px; /* 内部元素与边框的间距 */
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden; /* 确保蒙版不会超出边框 */
+    position: relative; /* 为蒙版设置相对定位 */
+  }
+  /* 蒙版样式 */
+
+  
+  /* 鼠标悬停时显示蒙版 */
+  .post-item:hover::after {
+    opacity: 1;
+  }
+  .post-item a {
+    text-decoration: none; /* 移除链接的下划线 */
+    color: black; /* 链接颜色 */
+  }
+  
+  .post-item img {
+    width: 200px; /* 图片宽度 */
+    height: auto; /* 图片高度自适应 */
+  }
+  
+  .post-item h2 {
+    margin: 0; /* 移除标题的默认外边距 */
+    padding: 5px 0; /* 标题的内边距 */
+    font-family: 'Roboto-Thin', sans-serif;
+    font-size: 15px;
+  }
+  
+  /* 鼠标移到上方时框放大,并且遮挡其他框 */
+  .post-item:hover {
+    transform: scale(1.05); /* 放大1.1倍 */
+    z-index: 2; /* 遮挡其他框 */
+  }
+  
+  /* 蒙版样式 */
+  .post-item::after {
+    content: attr(data-description); /* 使用自定义属性data-description的值作为蒙版内容 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* 半透明黑色背景 */
+    color: white;
+    font-family: 'Comfortaa-Regular';
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s; /* 过渡效果 */
+    pointer-events: none; /* 允许鼠标事件穿透蒙版 */
+  }
+  
+  /* 鼠标悬停时显示蒙版 */
+  .post-item:hover::after {
+    opacity: 1;
+  }
+  
+  /* 响应式设计，当屏幕宽度小于600px时，黑框堆叠显示 */
+  @media (max-width: 600px) {
+    .post-container {
+      flex-direction: column;
+    }
+  }
