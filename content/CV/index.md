@@ -1,3 +1,3 @@
 # Hi
 
-{{< embed-pdf url="CV_en.pdf" >}}
+{{< embed-pdf url="./CV_en.pdf" >}}

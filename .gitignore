@@ -1,4 +1,4 @@
 画图.pptx
 网站搭建.md
-themes/
 themes/*
+!themes/hugo-embed-pdf-shortcode/

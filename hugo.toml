@@ -1,7 +1,8 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site?'
-
+theme = ["hugo-embed-pdf-shortcode"]
+enableInlineShortcodes = true
 
 contentdir = "content"
 layoutdir = "layouts"
@@ -24,3 +25,4 @@ canonifyurls = true
 [params]
   description = "G.dab's Awesome Hugo Site"
   author = "Chenhao Wu"
+

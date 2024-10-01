@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/projects/bionic_frog-copy/</loc>
+    <loc>http://localhost:1313/projects/bionic_frog-copy/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/projects/bionic_frog/</loc>
+    <loc>http://localhost:1313/projects/bionic_frog/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/projects/development_of_a_digital-twin-based_in-situ_wear_testing_system/</loc>
+    <loc>http://localhost:1313/projects/development_of_a_digital-twin-based_in-situ_wear_testing_system/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/projects/bionic_frog-copy-2/</loc>
+    <loc>http://localhost:1313/projects/bionic_frog-copy-2/</loc>
     <lastmod>2022-02-01T09:39:28-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
     <lastmod>2022-02-01T09:39:28-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://example.org/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
