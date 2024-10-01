@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on My New Hugo Site?</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://example.org/projects/</link>
     <description>Recent content in Projects on My New Hugo Site?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bionic Frog</title>
-      <link>http://localhost:1313/projects/bionic_frog-copy/</link>
+      <link>https://example.org/projects/bionic_frog-copy/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/bionic_frog-copy/</guid>
+      <guid>https://example.org/projects/bionic_frog-copy/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;center&gt;&lt;img src=https://s2.loli.net/2024/09/06/S7TUYpGlAEXea9f.jpg width=50%&gt;&lt;/center&gt;&#xD;&#xA;&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;h2 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;sumto()&lt;/code&gt; function: \(\sum_1^i i\)&lt;/p&gt;&#xA;&lt;p&gt;Can be done recursively: &lt;code&gt;sumto(5) = 5 + sumto(4)&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recursive function rules:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;have a base case (a case to stop the recursion)&lt;/li&gt;&#xA;&lt;li&gt;the recursive function must progress toward the base case (otherwise it will recurse infinitely)&lt;/li&gt;&#xA;&lt;li&gt;trust the induction&lt;/li&gt;&#xA;&lt;li&gt;Make sure that it won&amp;rsquo;t make too many recursive calls&lt;/li&gt;&#xA;&lt;li&gt;Never run the same arguments of the recursive function twice. Caching may help&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Bionic Frog</title>
-      <link>http://localhost:1313/projects/bionic_frog/</link>
+      <link>https://example.org/projects/bionic_frog/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/bionic_frog/</guid>
+      <guid>https://example.org/projects/bionic_frog/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;center&gt;&lt;img src=https://s2.loli.net/2024/09/06/S7TUYpGlAEXea9f.jpg width=50%&gt;&lt;/center&gt;&#xD;&#xA;&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;h2 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;sumto()&lt;/code&gt; function: \(\sum_1^i i\)&lt;/p&gt;&#xA;&lt;p&gt;Can be done recursively: &lt;code&gt;sumto(5) = 5 + sumto(4)&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recursive function rules:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;have a base case (a case to stop the recursion)&lt;/li&gt;&#xA;&lt;li&gt;the recursive function must progress toward the base case (otherwise it will recurse infinitely)&lt;/li&gt;&#xA;&lt;li&gt;trust the induction&lt;/li&gt;&#xA;&lt;li&gt;Make sure that it won&amp;rsquo;t make too many recursive calls&lt;/li&gt;&#xA;&lt;li&gt;Never run the same arguments of the recursive function twice. Caching may help&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Development of a Digital Twin-based In-situ Wear Testing System</title>
-      <link>http://localhost:1313/projects/development_of_a_digital-twin-based_in-situ_wear_testing_system/</link>
+      <link>https://example.org/projects/development_of_a_digital-twin-based_in-situ_wear_testing_system/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/development_of_a_digital-twin-based_in-situ_wear_testing_system/</guid>
+      <guid>https://example.org/projects/development_of_a_digital-twin-based_in-situ_wear_testing_system/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;Measurement methods are typically one of the important factors affecting the results of &lt;strong&gt;wear tests&lt;/strong&gt;, divided into in-situ and ex-situ measurements. In-situ measurements do not require changing the contact conditions of the test samples, which can reduce the risk of experimental data being affected, and thus are gradually being applied in more and more research.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Digital twin technology&lt;/strong&gt; achieves the integration of virtual and physical entities through consistency and synchronization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bionic Frog</title>
-      <link>http://localhost:1313/projects/bionic_frog-copy-2/</link>
+      <link>https://example.org/projects/bionic_frog-copy-2/</link>
       <pubDate>Tue, 01 Feb 2022 09:39:28 -0700</pubDate>
-      <guid>http://localhost:1313/projects/bionic_frog-copy-2/</guid>
+      <guid>https://example.org/projects/bionic_frog-copy-2/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;center&gt;&lt;img src=https://s2.loli.net/2024/09/06/S7TUYpGlAEXea9f.jpg width=50%&gt;&lt;/center&gt;&#xD;&#xA;&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;h2 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h2&gt;&#xA;&lt;p&gt;ecursive functio&lt;/p&gt;&#xA;&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;sumto()&lt;/code&gt; function: \(\sum_1^i i\)&lt;/p&gt;&#xA;&lt;p&gt;Can be done recursively: &lt;code&gt;sumto(5) = 5 + sumto(4)&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recursive function rules:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;have a base case (a case to stop the recursion)&lt;/li&gt;&#xA;&lt;li&gt;the recursive function must progress toward the base case (otherwise it will recurse infinitely)&lt;/li&gt;&#xA;&lt;li&gt;trust the induction&lt;/li&gt;&#xA;&lt;li&gt;Make sure that it won&amp;rsquo;t make too many recursive calls&lt;/li&gt;&#xA;&lt;li&gt;Never run the same arguments of the recursive function twice. Caching may help&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
