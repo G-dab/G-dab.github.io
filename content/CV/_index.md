@@ -5,4 +5,4 @@ type: "CV"
 layout: "list"
 ---
 
-{{< embed-pdf url="CV_zh.pdf" >}}
+{{< embed-pdf url="CV_en.pdf" >}}
