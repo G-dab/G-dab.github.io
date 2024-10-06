@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'HarmonyOS_Sans_Bold';
+    src: url('/fonts/HarmonyOS_Sans_Bold.ttf') format('truetype');
+}
+
 .profile-container {
     display: flex;
     justify-content: space-between;
@@ -19,4 +24,32 @@
 
 .home-heading {
     padding: 1% 10%;
+}
+
+button {
+    background-color: #ffffff;
+    border: 3px solid;
+    /* background-image: linear-gradient(to bottom, #a2a2a2, #424242); */
+    border-radius: 12px;
+    color:rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: HarmonyOS_Sans_Bold , sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    background-color: #2b4420;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }

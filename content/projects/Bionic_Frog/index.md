@@ -1,35 +1,26 @@
 ---
 title: "Bionic Frog"
 date: 2023-09-01
-author: ["Chenhao Wu", "yuxuan Chen"]
-longImage: "longpic.jpg"
+author: ["Chenhao Wu", "Yuxuan Chen", "Xunye Wei", "Yajing Liu"]
+description: "A high-performance bionic frog, achieved by using a cam-driven linkage to compress a spring energy storage mechanism."
+longImage: "longpic.png"
 showImage: "showpic.png"
 ---
 
 ## Abstract
 
-ecursive functio
+We designed a remotely controlled bionic frog jumping robot. The energy storage mechanism utilizes a cam-driven linkage to compress the spring, and remote control is achieved through Wi-Fi or Bluetooth connections. Within the specified dimensions of the project, it has achieved a jumping distance of greater than 52cm.
 
-<center><img src=https://s2.loli.net/2024/09/06/S7TUYpGlAEXea9f.jpg width=50%></center>
+
 
 ## Design
 
-ecursive functio
+
 
 ## System Architecture
 
-ecursive functio
+
 
 ## Publications
 
-`sumto()` function: \\(\sum_1^i i\\)
-
-Can be done recursively: `sumto(5) = 5 + sumto(4)`
-
-Recursive function rules:
-
-1. have a base case (a case to stop the recursion)
-2. the recursive function must progress toward the base case (otherwise it will recurse infinitely)
-3. trust the induction
-4. Make sure that it won't make too many recursive calls
-5. Never run the same arguments of the recursive function twice. Caching may help
+- Project Demo Website https://me.sjtu.edu.cn/bkjx/me3220/Projects2024/712.html
