@@ -2,6 +2,10 @@
     font-family: 'D-DIN-PRO-600-SemiBold';
     src: url('/fonts/D-DIN-PRO-600-SemiBold.otf') format('truetype');
 }
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src: url('/fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
 
 .project-container {
     padding: 1% 10%;
@@ -35,6 +39,7 @@
 }
 .project-content {
     font-size: 1em;
+    font-family: RobotoSlab-Regular, sans-serif;
     color: #333;
     margin-bottom: 1em;
     display: inline-block;

@@ -20,14 +20,14 @@
       <link>http://localhost:1313/projects/humanoid-arm/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/humanoid-arm/</guid>
-      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;&#xA;&lt;h2 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h2&gt;&#xA;&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;This project was my internship project during 2024 summer at JAKA Robotics. I designed a small 7DOF humanoid robot arm. What sets it apart from most humanoid arms on the market is the configuration of the degrees of freedom at the wrist. The joints use small green harmonic drive reducers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;mechanical-design&#34;&gt;Mechanical Design&lt;/h2&gt;&#xA;&lt;p&gt;The humanoid arm can be divided into three parts: the shoulder, the upper arm, and the lower arm. The shoulder has 2 degrees of freedom, the upper arm has 2 degrees of freedom, and the lower arm has 3 degrees of freedom.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bionic Frog</title>
       <link>http://localhost:1313/projects/bionic_frog/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/bionic_frog/</guid>
-      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;We designed a remotely controlled bionic frog jumping robot. The energy storage mechanism utilizes a cam-driven linkage to compress the spring, and remote control is achieved through Wi-Fi or Bluetooth connections. Within the specified dimensions of the project, it has achieved a jumping distance of greater than 52cm.&lt;/p&gt;&#xA;&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;&#xA;&lt;h2 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h2&gt;&#xA;&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Project Demo Website &lt;a href=&#34;https://me.sjtu.edu.cn/bkjx/me3220/Projects2024/712.html&#34;&gt;https://me.sjtu.edu.cn/bkjx/me3220/Projects2024/712.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;We designed a remotely controlled bionic frog jumping robot. The energy storage mechanism utilizes a cam-driven linkage to compress the spring, and remote control is achieved through Wi-Fi or Bluetooth connections. Within the specified dimensions of the project, it has achieved a jumping distance of greater than 52cm.&lt;/p&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;&#xA;&lt;p&gt;This project is targeted at the 11th (2024) National College Students&amp;rsquo; Mechanical Innovation Design Competition. The bionic frog&amp;rsquo;s appearance has the following size restrictions:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Development of a Digital Twin-based In-situ Wear Testing System</title>

@@ -44,7 +44,6 @@
   
   .post-item h2 {
     margin: 0; /* 移除标题的默认外边距 */
-    padding: 5px 0; /* 标题的内边距 */
     font-family: 'Roboto-Thin', sans-serif;
     font-size: 15px;
   }
